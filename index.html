@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookshop</title>
+    <link rel="stylesheet" href="dist/main.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navigation-panel">
+            <div class="navigation-panel__logo">Bookshop</div>
+            <ul class="navigation-links">
+                <li class="navigation-links__books navigation-links__books_active">Books</li>
+                <li class="navigation-links__audiobooks">Audiobooks</li>
+                <li class="navigation-links__stationery-and-gifts">Stationery & Gifts</li>
+                <li class="navigation-links__blog">Blog</li>
+            </ul>
+            <div class="navigation-icons">
+                <a class="navigation-icons__user" href="#"><img src="icons/user.svg" alt="User logo"></a>
+                <a class="navigation-icons__search" href="#"><img src="icons/search.svg" alt="Search logo"></a>
+                <a class="navigation-icons__shop-bag" href="#"><img src="icons/shop-bag.svg" alt="Shop bag logo"><span
+                        class="shop-bag-add"></span></a>
+            </div>
+        </nav>
+    </header>
+
+
+    <main class="main">
+        <section class="slider">
+            <div class="slider__images"></div>
+            <div class="slider__dots"></div>
+            <div class="changebook">
+                <a href="#"><img src="src/images/changebook.png" alt="Inscription change old book on new"></a>
+            </div>
+            <div class="topbook">
+                <a href="#"><img src="src/images/topbooks.png" alt="Inscription top 100 books 2022"></a>
+            </div>
+        </section>
+        <section class="category-and-books">
+            <div class="category">
+                <ul class="category-list">
+                    <li class="category-list__item  category-list__item_active">Architecture</li>
+                    <li class="category-list__item">Art & Fashion</li>
+                    <li class="category-list__item">Biography</li>
+                    <li class="category-list__item">Business</li>
+                    <li class="category-list__item">Crafts & Hobbies</li>
+                    <li class="category-list__item">Drama</li>
+                    <li class="category-list__item">Fiction</li>
+                    <li class="category-list__item">Food & Drink</li>
+                    <li class="category-list__item">Health & Wellbeing</li>
+                    <li class="category-list__item">History & Politics</li>
+                    <li class="category-list__item">Humor</li>
+                    <li class="category-list__item">Poetry</li>
+                    <li class="category-list__item">Psychology</li>
+                    <li class="category-list__item">Science</li>
+                    <li class="category-list__item">Technology</li>
+                    <li class="category-list__item">Travel & Maps</li>
+                </ul>
+            </div>
+            <div class="books"></div>
+            <div class="button-load"><button class="button button_load-more">Load more</button></div>
+        </section>
+    </main>
+
+
+    <script src="./dist/main.js"></script>
+</body>
+
+</html>
